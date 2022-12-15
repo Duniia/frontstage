@@ -28,6 +28,7 @@ function Navbar({user,totalProducts}) {
                 {!user&&<>
                   <Link className='navlink' to="cart"><GrShop size="20"/> </Link>
                   <Link className='navlink' to="cart"><AiOutlineUser size="20"/> </Link>
+                  <Link className='navlink' to="cart"><GrShop size="20"/> </Link>
                     <div><Link className='navlink' to="signup">Registrér dig</Link></div>
                     <div><Link className='navlink' to="login">Login</Link></div>
                 </>} 
