@@ -1,13 +1,13 @@
-import React from 'react'
+import { React, useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom'
 import logo from '../assets/logo.png'
 import { GrShop } from 'react-icons/gr';
 import { AiOutlineUser, AiOutlineMenu, AiOutlineHeart, AiOutlineClose} from 'react-icons/ai';
 import { auth } from '../Config/Config';
-import { useState } from 'react';
 
 function Navbar() {
     const [isMobile, setIsMobile]=useState(false);
+
   return (
     <nav className='navbar'>
         <Link to="/"className='logo'>FRONTSTAGE</Link>
@@ -48,6 +48,8 @@ function Navbar() {
         )
         }
        </button>
+
+    
     </nav>
   )
 }
