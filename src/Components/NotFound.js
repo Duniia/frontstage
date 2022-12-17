@@ -1,10 +1,16 @@
 import React from 'react'
+import Navbar from './Navbar'
+import errorimg from '../assets/404.jpg'
 
 function NotFound() {
   return (
+    <>
+    <Navbar/>
     <div className='container-fluid'>
-    Error 404 Not found
-</div>  )
+      <img src={errorimg} class="errorimg" alt='errorimage'/>
+</div>
+    </>
+     )
 }
 
 export default NotFound

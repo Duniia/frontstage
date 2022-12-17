@@ -2,6 +2,7 @@ import { React, useState } from 'react'
 import { auth } from '../Config/Config';
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
+import Navbar from './Navbar';
 
 function Login() {
 
@@ -29,6 +30,8 @@ function Login() {
 }
 
   return (
+    <>
+    <Navbar/>
     <div className='container'>
       <br />
       <br />
@@ -54,6 +57,7 @@ function Login() {
                 <div className='error-msg'>{errorMsg}</div>                
             </>}
     </div>
+    </>
   )
 }
 

@@ -12,9 +12,9 @@ function Navbar() {
     <nav className='navbar'>
         <Link to="/"className='logo'>FRONTSTAGE</Link>
             <div className="navlink-icons">
-                <Link className='navlink' to="login"><AiOutlineUser/> </Link>
-                <Link className='navlink' to="wishlist"><AiOutlineHeart/> </Link>
-              <Link className='navlink' to="cart"><GrShop/> </Link>
+                <Link className='navlink' to="/login"><AiOutlineUser/> </Link>
+                <Link className='navlink' to="/wishlist"><AiOutlineHeart/> </Link>
+              <Link className='navlink' to="/cart"><GrShop/> </Link>
             </div>    
         
         <ul 

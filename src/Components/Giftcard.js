@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 function Giftcard() {
   return (
-    <div>Giftcard</div>
+    <>
+    <Navbar/>
+    <div></div>
+    </>
   )
 }
 

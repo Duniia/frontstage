@@ -12,7 +12,7 @@ export const IndividualProduct = ({individualProduct, addToCart}) => {
             </div>
             <div className='product-text title'>{individualProduct.titel}</div>
             <div className='product-text description'>{individualProduct.beskrivelse}</div>
-            <div className='product-text price'>$ {individualProduct.pris}</div>
+            <div className='product-text price'>kr. {individualProduct.pris}</div>
             <div className='btn btn-danger btn-md cart-btn' onClick={handleAddToCart}>Tilføj til kurv</div>
         </div> 
     )
