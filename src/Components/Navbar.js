@@ -24,7 +24,7 @@ function Navbar() {
             {/* <Link to="/" className='home'>
                 <li>Forside</li>
             </Link>  */}
-            <Link to="/allcollections" className='login'>
+            <Link to="/allcollections" className='allcollections'>
                 <li>Alle kollektioner</li>
             </Link> 
             <Link to="/about" className='about'>

@@ -154,6 +154,7 @@ const returntoAllProducts=()=>{
 {/* <div className='filter-box'>
     <h6>Filter by category</h6>
     {spans.map((individualSpan,index)=>(
+    {spans.map((individualSpan,index)=>(
         <span key={index} id={individualSpan.id}
         onClick={()=>handleChange(individualSpan)}
         className={individualSpan.id===active ? active:'deactive'}>{individualSpan.text}</span>

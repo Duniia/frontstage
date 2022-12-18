@@ -5,7 +5,9 @@ function Giftcard() {
   return (
     <>
     <Navbar/>
-    <div></div>
+    <div>
+      <h1>Gavekort</h1>
+    </div>
     </>
   )
 }

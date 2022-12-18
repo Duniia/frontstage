@@ -11,6 +11,9 @@ import Giftcard from './Components/Giftcard'
 import AllCollections from './Components/AllCollections'
 import { Home } from './Components/Home'
 import { Cart } from './Components/Cart'
+import Privatpolitik from './Components/Privatpolitik'
+import Returpolitik from './Components/Returpolitik'
+
 
 function App () {
   return (
@@ -26,7 +29,9 @@ function App () {
         <Route path="/about" element={<About/>}/>       
         <Route path="/contact" element={<Contact/>}/>       
         <Route path="/giftcard" element={<Giftcard/>}/>       
-        <Route path="/allcollections" element={<AllCollections/>}/>       
+        <Route path="/allcollections" element={<AllCollections/>}/>    
+        <Route path='/privatpolitik' element={<Privatpolitik/>}/>   
+        <Route path='/returpolitik' element={<Returpolitik/>}/>   
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     </BrowserRouter>

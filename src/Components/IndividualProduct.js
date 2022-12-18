@@ -10,9 +10,9 @@ export const IndividualProduct = ({individualProduct, addToCart}) => {
             <div className='product-img'>
                 <img src={individualProduct.url} alt="product-img"/>
             </div>
-            <div className='product-text title'>{individualProduct.titel}</div>
-            <div className='product-text description'>{individualProduct.beskrivelse}</div>
-            <div className='product-text price'>kr. {individualProduct.pris}</div>
+            <div className='product-text title'>{individualProduct.title}</div>
+            <div className='product-text description'>{individualProduct.description}</div>
+            <div className='product-text price'>kr. {individualProduct.price}</div>
             <div className='btn btn-danger btn-md cart-btn' onClick={handleAddToCart}>Tilføj til kurv</div>
         </div> 
     )
